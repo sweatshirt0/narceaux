@@ -88,12 +88,26 @@ input:focus {
 	outline: none;
 }
 
-@media only screen and (max-width: 1800px) {
+@media screen and (max-width: 1800px) {
 	.content-wrapper {
 		width: 53vw;
 	}
 
 	.content {
 		text-align: center;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.form-wrapper {
+		position: relative;
+		top: 300px;
+		margin: auto;
+	}
+
+	.content-wrapper {
+		left: 0px;
+		width: 200vw;
+		margin: auto;
 	}
 }

@@ -1,0 +1,99 @@
+body {
+	background-color: #111;
+}
+
+.title-wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.title {
+	color: #4AF626;
+}
+
+.nav-wrapper {
+	display: flex;
+	justify-content: center;
+	border: 2px solid #4af626;
+	border-radius: 5px;
+	box-shadow: 3px 3px 10px #4af626;
+	margin-top: 5px;
+}
+
+.nav-wrapper a {
+	margin-left: 5px;
+	margin-right: 5px;
+	text-decoration: none;
+	color: #4af626;
+	padding: 10px;
+}
+
+.nav-wrapper a:hover {
+	cursor: pointer;
+	background-color: #4af626;
+	color: black;
+}
+
+
+label {
+	color: #4AF626;
+}
+
+.form-wrapper {
+	position: relative;
+	top: 70px;
+	width: 350px;
+	min-width: 300px;
+	max-width: 500px;
+	border: 2px solid #4AF626;
+	padding-top: 45px;
+	padding-left: 10px;
+	box-shadow: 5px 5px 10px #4AF626;
+	padding-bottom: 50px;
+	margin-left: 15px;
+	border-radius: 5px;
+}
+
+.content-wrapper {
+	position: relative;
+	left: 420px;
+	top: -88px;
+	max-width: 75vw;
+	border: 2px solid #4af626;
+	box-shadow: 5px 5px 10px #4af626;
+	padding-bottom: 50px;
+	border-radius: 5px;
+}
+
+.content-title {
+	color: #4af626;
+	text-align: center;
+}
+
+.content {
+	color: #4af626;
+	text-align: center;
+}
+
+input {
+	background: transparent;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	border-bottom: 2px solid #4af626;
+	color: #4af626;
+}
+
+input:focus {
+	outline: none;
+}
+
+@media only screen and (max-width: 1800px) {
+	.content-wrapper {
+		width: 53vw;
+	}
+
+	.content {
+		text-align: center;
+	}
+}

@@ -80,6 +80,16 @@ label {
 	text-align: center;
 }
 
+.content-title {
+	color: #4af626;
+	text-align: center;
+}
+
+.content {
+	color: #4af626;
+	text-align: center;
+}
+
 input {
 	background: transparent;
 	border-left: none;
@@ -106,6 +116,31 @@ input:focus {
 	outline: none;
 }
 
+.games-wrapper {
+	position: relative;
+	border: 2px solid #4af626;
+	border-radius: 5px;
+	box-shadow: 5px 5px 10px #4af626;
+	top: 20px;
+	padding: 5px;
+}
+
+.atari-recoded {
+	text-decoration: none;
+	margin-left: 2px;
+	color: #4af626;
+}
+
+.atari-recoded:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.contact {
+	color: #4af626;
+	text-align: center;
+}
+
 @media screen and (max-width: 1800px) {
 	.content-wrapper {
 		width: 53vw;
@@ -125,7 +160,7 @@ input:focus {
 
 	.content-wrapper {
 		left: 0px;
-		width: 200vw;
+		width: 350px;
 		margin: auto;
 	}
 }

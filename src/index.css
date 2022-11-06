@@ -84,6 +84,19 @@ input {
 	color: #4af626;
 }
 
+.contact-wrapper {
+	position: relative;
+	top: 50px;
+	border: 2px solid #4af626;
+	border-radius: 5px;
+	box-shadow: 5px 5px 10px #4af626;
+}
+
+.contact {
+	color: #4af626;
+	text-align: center;
+}
+
 input:focus {
 	outline: none;
 }

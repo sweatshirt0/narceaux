@@ -8,7 +8,7 @@ const Games = () => {
 			<Title />
 			<Nav />
 			<div className="games-wrapper">
-				<a className="atari-recoded" href="#">1. Atari -- recoded</a>
+				<a className="atari-recoded" href="/games">1. Atari -- recoded</a>
 			</div>
 		</div>
 	)

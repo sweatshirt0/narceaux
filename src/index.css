@@ -178,6 +178,8 @@ input:focus {
 	}
 
 	.content-wrapper {
+		position: relative;
+		top: -120px;
 		left: 0px;
 		width: 350px;
 		margin: auto;

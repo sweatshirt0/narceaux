@@ -168,6 +168,11 @@ input:focus {
 .news {
 	color: #4af626;
 	margin-left: 10px;
+	font-size: 1.1rem;
+}
+
+span {
+	font-weight: bold;
 }
 
 @media screen and (max-width: 600px) {

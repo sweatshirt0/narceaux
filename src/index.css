@@ -199,6 +199,7 @@ input:focus {
 .blog {
 	text-decoration: none;
 	color: #4af626;
+	margin-top: 5px;
 }
 
 .blog:hover {

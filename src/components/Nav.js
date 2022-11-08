@@ -6,7 +6,7 @@ const Nav = () => {
 			<a className="home" href="/">Home</a>
 			<a className="news" href="/news">News</a>
 			<a className="contact" href="/contact">Contact</a>
-			<a className="games" href="/games">Games</a>
+			<a className="blogs" href="/blogs">Blogs</a>
 		</div>
 	)
 }

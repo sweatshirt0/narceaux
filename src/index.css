@@ -80,16 +80,6 @@ label {
 	text-align: center;
 }
 
-.content-title {
-	color: #4af626;
-	text-align: center;
-}
-
-.content {
-	color: #4af626;
-	text-align: center;
-}
-
 input {
 	background: transparent;
 	border-left: none;
@@ -125,15 +115,29 @@ input:focus {
 	padding: 5px;
 }
 
-.atari-recoded {
-	text-decoration: none;
-	margin-left: 2px;
-	color: #4af626;
+.blog-wrapper {
+	position: relative;
+	border: 2px solid #4af626;
+	border-radius: 5px;
+	top: 35px;
+	box-shadow: 2px 2px 10px #4af626;
 }
 
-.atari-recoded:hover {
-	text-decoration: underline;
-	cursor: pointer;
+.blog-title {
+	color: #4af626;
+	text-align: center;
+	font-size: 1.7rem;
+}
+
+.blog-content {
+	color: #4af626;
+	font-size: 1.5rem;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.indent {
+	margin-left: 40px;
 }
 
 .contact {
@@ -171,8 +175,34 @@ input:focus {
 	font-size: 1.1rem;
 }
 
-span {
-	font-weight: bold;
+.blog-list-wrapper {
+	position: relative;
+	border: 2px solid #4af626;
+	border-radius: 5px;
+	top: 35px;
+	padding: 10px;
+	box-shadow: 5px 5px 10px #4af626;
+}
+
+.return {
+	position: relative;
+	color: #4af626;
+	text-decoration: none;
+	top: 25px;
+	left: 20px;
+}
+
+.return:hover {
+	text-decoration: underline;
+}
+
+.blog {
+	text-decoration: none;
+	color: #4af626;
+}
+
+.blog:hover {
+	text-decoration: underline;
 }
 
 @media screen and (max-width: 600px) {

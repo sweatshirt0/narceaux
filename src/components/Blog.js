@@ -1,7 +1,6 @@
 import React from 'react'
 import Title from './Title'
 import Nav from './Nav'
-import Blog1 from './Blog1'
 
 const Blog = () => {
 	return(
